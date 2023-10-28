@@ -19,5 +19,10 @@ body {
   background-color: var(--color-black);
   font-family: "Poppins,sans-serif ";
   color: var(--color-white);
-  overflow: hidden;
+  /* overflow: hidden; */
+}
+
+img,svg {
+  display: block;
+  max-width: 100%;
 }
